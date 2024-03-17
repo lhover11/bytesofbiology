@@ -1,4 +1,95 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'hugo-theme-relearn'
+theme = 'relearn'
+
+[outputs]
+  home = ['html', 'rss', 'search', 'searchpage']
+
+[markup]
+  [markup.highlight]
+    # line numbers in a table layout will shift if code is wrapping, so better
+    # not use it; visually both layouts have the same look and behavior
+    lineNumbersInTable = false  
+
+[params]
+  additionalContentLanguage = ['en']
+  alwaysopen = ''
+  breadcrumbSeparator = '>'
+  collapsibleMenu = true
+  customMathJaxURL = ''
+  customMermaidURL = ''
+  customOpenapiURL = ''
+  description = 'Learn bioinformatics with me'
+  disableAssetsBusting = false
+  disableBreadcrumb = false
+  disableExplicitIndexURLs = false
+  disableGeneratorVersion = false
+  disableHoverBlockCopyToClipBoard = false
+  disableInlineCopyToClipBoard = true
+
+  # If set to false, a Home button will appear below the search bar on the menu.
+  disableLandingPageButton = false
+
+  disableLanguageSwitchingButton = false
+  disableMathJax = true
+  disableMermaid = true
+  disableNextPrev = false
+  disableOpenapi = true
+  disableRandomIds = false
+  disableRootBreadcrumb = true
+  disableSearch = false
+  disableSearchHiddenPages = false
+  disableSeoHiddenPages = true
+  disableShortcutsTitle = false
+  disableTagHiddenPages = false
+  disableTermBreadcrumbs = false
+  disableToc = false
+  editURL = ''
+  externalLinkTarget = '_blank'
+  highlightWrap = true
+  images = ['images/hero.png']
+  mathJaxInitialize = '{}'
+  mermaidInitialize = '{ "securityLevel": "loose" }'
+  mermaidZoom = true
+  ordersectionsby = 'weight'
+
+  # Shows a checkmark for visited pages on the menu
+  showVisitedLinks = false
+  
+  themeVariantModifier = ''
+  titleSeparator = '::'
+
+  [params.author]
+    name = ''
+
+  [params.image]
+    errorlevel = 'warning'
+
+  [params.imageEffects]
+    border = true
+    lightbox = true
+    shadow = false
+
+  [params.link]
+    errorlevel = 'warning'
+
+  [params.social]
+    facebook_admin = ''
+    twitter = ''
+
+[[params.themeVariant]]
+    identifier = 'blue'
+
+[menu]
+[[menu.shortcuts]]
+    identifier = 'ds'
+    name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+    url = 'https://github.com/lhover11'
+    weight = 10
+
+[[menu.shortcuts]]
+    name = "<i class='fas fa-fw fa-camera'></i> LinkedIn"
+    url = 'https://www.linkedin.com/in/laura-hover-22606069/'
+    weight = 11
+
