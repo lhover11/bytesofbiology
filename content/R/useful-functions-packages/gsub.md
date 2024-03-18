@@ -1,7 +1,7 @@
 +++
 title = 'gsub'
 date = 2024-02-20T08:53:29-05:00
-draft = true
+draft = false
 +++
 
 ### GSUB
