@@ -1,5 +1,5 @@
-baseURL = ""
-relativeURLs = true
+baseURL = "https://lhover11.github.io/bytesofbiology/"
+relativeURLs = false
 
 languageCode = 'en-us'
 title = 'My New Hugo Site'
