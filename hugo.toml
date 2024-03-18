@@ -1,4 +1,6 @@
 baseURL = 'https://lhover11.github.io/bytesofbiology/'
+relativeURLs = false
+
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'relearn'
@@ -13,9 +15,6 @@ theme = 'relearn'
     lineNumbersInTable = false  
 
 [params]
-
-  canonifyURLs = true
-
   additionalContentLanguage = ['en']
   alwaysopen = ''
   breadcrumbSeparator = '>'
