@@ -1,5 +1,6 @@
 baseURL = 'https://lhover11.github.io/bytesofbiology/'
 relativeURLs = false
+canonifyURLs = true
 
 languageCode = 'en-us'
 title = 'My New Hugo Site'
