@@ -76,9 +76,11 @@ df$rank <- 1:nrow(df)
 df$BH <- (df$pvalues * nrow(df))/df$rank
 ```
 
-Second, make sure that the resulting sequence is non-decreasing: if it ever starts decreasing, make the preceding p-value equal to the subsequent (repeatedly, until the whole sequence becomes non-decreasing).
+Second, make sure that the smaller p-values always have smaller FDR values (rank 1 pvalue < rank 2 pvalue < rank 3 pvalue ...)  
+If the adjusted pvalues start decreasing, make the preceding adj. p-value equal to the subsequent adj. pvalue (repeatedly, until the whole sequence becomes non-decreasing).
 
-Next, start at the largest p-value and we make sure the list of adjusted p-values is consistently decreasing So in our example we start at rank 50 and all the values are decreasing until we hit row 45 0.903 < 0.917
+To do this, we start at the largest p-value and we make sure the list of adjusted p-values is consistently decreasing.  
+So in our example we start at rank 50 and all the values are decreasing until we hit row 47: 0.907 > 0.905
 
 ```r
 df[45:50, ]
@@ -92,30 +94,14 @@ df[45:50, ]
 ## 50 0.9875201 0.9875201   50 0.9875201
 ```
 
-So then we make the rank 45 adjusted p-value equal to the rank 46 p-value since that one was smaller. And we continue that until we hit the next p-value smaller than
-0.903 which happens at rank 36
-
-```r
-df[35:45, ]
-
-##      pvalues   padjust rank        BH
-## 35 0.6196068 0.8802792   35 0.8851526
-## 36 0.6338010 0.8802792   36 0.8802792
-## 37 0.7399023 0.9031309   37 0.9998680
-## 38 0.7765914 0.9031309   38 1.0218308
-## 39 0.7867468 0.9031309   39 1.0086497
-## 40 0.7872129 0.9031309   40 0.9840162
-## 41 0.8051165 0.9031309   41 0.9818493
-## 42 0.8162975 0.9031309   42 0.9717827
-## 43 0.8195141 0.9031309   43 0.9529233
-## 44 0.8212559 0.9031309   44 0.9332454
-## 45 0.8260703 0.9031309   45 0.9178559
-```
+So then we make the rank 47 adjusted p-value equal to the rank 48 adjusted p-value since the rank 48 adj. p-value one was smaller.  
+Next, the rank 46 adj pvalue is smaller than 0.905, so we don't need to do anything there  
+But the rank 45 adj pvalue is larger than 0.903, so we'll set that adjusted pvalue to 0.903
 
 And we continue that process all the way through rank 1
 
-We can assign these p-values in R to make sure our calculated adjusted
-p-value matches those output from p.adjust()
+We can also write a quick loop in R to adjust our adjusted p-values as described above  
+We'll also make sure our adjusted p-values match those output from p.adjust() to make sure we understand what's going on 
 
 ```r
 # First assign our new column equal to the BH adjusted p-value
