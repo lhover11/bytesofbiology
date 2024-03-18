@@ -1,7 +1,7 @@
 +++
 title = 'Reading in Files'
 date = 2024-02-20T10:51:58-05:00
-draft = true
+draft = false
 +++
 
 Here are 3 simple ways you can use to read in various data formats that
