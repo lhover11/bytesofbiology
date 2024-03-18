@@ -26,7 +26,7 @@ head(iris)
 ggplot(iris, aes(x = Species, y = Sepal.Length)) +
   geom_boxplot()
 ```
-![Plot 1: Basic Plot](R/post1_ggplot_v1.png)
+![Plot 1: Basic Plot](../post1_ggplot_v1.png)
 ```
 # Let's add the indiviual points to the plot so we can see each sample
 ggplot(iris, aes(x = Species, y = Sepal.Length)) +
@@ -82,8 +82,10 @@ ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
   theme_classic() +
   theme(text = element_text(size = 18)) # This makes all our plot text bigger, but you can also modify each text element separately
 
+# Save our final plot
+ggsave("ggplot_boxplot_example.png", w = 6, h = 6) # this will save the plot wherever you have set your working directory
   ```
-![Plot 7: Basic Plot](R/post1_ggplot_v2.png)
+![Plot 7: Basic Plot](../ggplot_boxplot_example.png)
 
 
 

@@ -1,0 +1,25 @@
+
+I want to be able to use screen so I don't lose any work
+
+# Install screen
+sudo apt install screen
+
+ But now when I try to run screen -S index (trying to name my session) I get the error:
+ Cannot make directory '/run/screen': Permission denied
+
+ Thankfully host4geeks.com had a whole blog about this:
+ https://host4geeks.com/blog/how-to-fix-cannot-make-directory-run-screen-permission-denied/
+
+First check the ownership and permissions of /run:
+ls -ld /run
+# drwxr-xr-x 7 root root 140 Mar 13 08:34 /run
+
+This shows the root has read/write/execute rights, but the user lacks write permissions (-xr-) so this is why we can't create a subdirectory here
+
+We can give user account write access with:
+sudo chmod 777 /run
+
+Then let's try it again
+screen -S index
+**SUCCESS**
+

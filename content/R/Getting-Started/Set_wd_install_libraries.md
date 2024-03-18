@@ -30,7 +30,7 @@ And then I can read in my data as read_excel("MyVeryImportantData.xslx")
 You can do lots of things in base R, but pretty much guaranteed you will want to install packages along the way.  One way to do this is:  
 Go to the Packages tab in the pane on the bottom right >> install >> start typing in the package you want to install
 
-![Install packages](../R_getting_started/install_lib.png "Install Packages")
+![Install packages](../install_lib.png "Install Packages")
 The "Install from" should be Repository (CRAN)  
 And leave the check by Install dependencies
 
