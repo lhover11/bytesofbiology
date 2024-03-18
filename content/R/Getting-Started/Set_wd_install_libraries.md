@@ -15,7 +15,7 @@ So here I'll show you the easy way to do it in Rstudio so you don't get stuck wh
 Find the Session tab at the top of your Rtudio  
 Click on Session >> Set working directory >> Choose Directory
 
-![Set WD](/SetWD.png "setwd")
+![Set WD](SetWD.png "setwd")
 
 Then you can choose whichever directory on your computer you want to be your working directory.  
 The working directory is important because it tells R where to find your files that you try to load in.  
