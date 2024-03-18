@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://depmap.org/portal/gene/KRAS?tab=dependency
+HostUrl=https://depmap.org/portal/partials/entity_summary/download?entity_id=13749&dep_enum_name=Chronos_Combined&size_biom_enum_name=expression&color=mutations_prioritized
