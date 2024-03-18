@@ -13,6 +13,9 @@ theme = 'relearn'
     lineNumbersInTable = false  
 
 [params]
+
+  canonifyURLs = true
+
   additionalContentLanguage = ['en']
   alwaysopen = ''
   breadcrumbSeparator = '>'
