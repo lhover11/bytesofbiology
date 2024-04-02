@@ -1,6 +1,5 @@
         </div>
       </main><!-- #R-body-inner -->
-{{- partial "disqus.html" . }}
 {{- partial "custom-comments.html" . }}
     </div><!-- #R-body -->
 {{- $outputFormat := partial "output-format.hugo" .Page }}
@@ -10,5 +9,9 @@
 {{- partial "dependencies.html" (dict "page" . "location" "footer" "outputFormat" $outputFormat) }}
     <script src="{{"js/theme.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
 {{- partial "custom-footer.html" . }}
+
+<!-- Include Disqus comments -->
+{{- partial "disqus.html" . }}
+
   </body>
 </html>
