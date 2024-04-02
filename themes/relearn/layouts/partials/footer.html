@@ -10,8 +10,5 @@
     <script src="{{"js/theme.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
 {{- partial "custom-footer.html" . }}
 
-<!-- Include Disqus comments -->
-{{- partial "disqus.html" . }}
-
   </body>
 </html>
