@@ -2,6 +2,7 @@
 title = 'Customizing ggplots'
 date = 2024-02-19T21:48:15-05:00
 draft = false
+comments = true
 +++
 
 # Step by step creation of a ggplot

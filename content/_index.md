@@ -13,6 +13,5 @@ As I recently(ish) transitioned from the bench-top to the laptop, I wanted to cr
 1. primarily to help others learn and avoid some of the hang-ups where I found myself stuck within the past few years
 2. to document my learning journey
 
-I hope you find my posts helpful and please let me know if there are other topics of interest!  
+I hope you find my posts helpful and please let me know if there are other topics of interest or if you have any questions!    
 Additionally, as I am continuing to learn I always welcome constructive feedback
-*comments sections coming, until then feel free to reach out via linkedin or github*

@@ -2,6 +2,7 @@
 title = 'Aligning_RNAseq_FASTQs'
 date = 2024-03-12T21:40:05-04:00
 draft = true
+comments = true
 +++
 
 
