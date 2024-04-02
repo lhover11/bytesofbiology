@@ -2,6 +2,7 @@
 title = 'Set your WD and install packages'
 date = 2024-02-20T13:42:10-05:00
 draft = false
+comments = true
 +++
 
 ### Setting your working directory and installing libraries the easy(ier) way
