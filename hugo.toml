@@ -95,3 +95,6 @@ theme = 'relearn'
     url = 'https://www.linkedin.com/in/laura-hover-22606069/'
     weight = 11
 
+[services]
+  [services.disqus]
+    shortname = 'bytes-of-biology'
