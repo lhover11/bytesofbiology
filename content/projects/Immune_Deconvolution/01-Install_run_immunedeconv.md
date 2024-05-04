@@ -33,7 +33,7 @@ File --> New Project --> Choose if you want this to be in a new directory or an 
 I did that so I wouldn't disrupt the package versions and set-up I have for my other work in R  
 
 Next, following the instruction on the website:
-```{r}
+```r
 install.packages("remotes")
 remotes::install_github("omnideconv/immunedeconv")
 
