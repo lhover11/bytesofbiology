@@ -28,7 +28,7 @@ This data can be found at cbioportal (https://www.cbioportal.org/study/summary?i
 ## Step 1 : Install the package Immunedeconv
 
 I installed this in a separate environment as to not disrupt my other R projects  
-# You can do that in RStudio by going to: 
+You can do that in RStudio by going to: 
 File --> New Project --> Choose if you want this to be in a new directory or an existing directory --> New Project --> Create your new directory name, where you want this directory and check the box "Use renv with this project" to create a new environment associated with this project  
 I did that so I wouldn't disrupt the package versions and set-up I have for my other work in R  
 
