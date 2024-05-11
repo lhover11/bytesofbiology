@@ -8,7 +8,7 @@ comments = true
 
 You're ready to get started coding in R!!!  YAAAAY!!!!
 
-![png](../images/pineapple-supply-co.png" "Yay")
+![jpg](../images/pineapple-supply-co.jpg" "Yay")
 Photo by Pineapple Supply Co. on Unsplash
 
 
@@ -100,7 +100,7 @@ Now you've sucessfully installed R and Rstudio AND started to code!
 Keep exploring RStudio and check out my next posts on installing packages and loading in data!  
 
 
-![png](../images/everyonecancode.png" "coding!")  
+![jpg](../images/everyonecancode.jpg" "coding!")  
 Photo by Adi Goldstein on Unsplash
 
 
