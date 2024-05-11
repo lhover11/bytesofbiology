@@ -8,7 +8,7 @@ comments = true
 
 You're ready to get started coding in R!!!  YAAAAY!!!!
 
-![jpg](../images/pineapple-supply-co.jpg" "Yay")
+![jpg](../images/pineapple-supply-co.jpg "Yay")
 Photo by Pineapple Supply Co. on Unsplash
 
 
@@ -17,16 +17,16 @@ First you'll need to install R:
 You'll want to do this from The Comprehensive R Archive Network or CRAN  
 https://cran.r-project.org/
 
-![png](../images/cran_screenshot1.png" "CRAN")  
+![png](../images/cran_screenshot1.png "CRAN")  
 
 Click on the appropriate link for your machine (Windows or Mac)  
 
 #### For Windows machines:
 Click on base on the next screen  
-![png](../images/cran_screenshot2.png" "CRAN_base")  
+![png](../images/cran_screenshot2.png "CRAN_base")  
 
 Then click on the Download R-4.4.0 for Windows (this version will continue to be updated so your screen may look different)  
-![png](../images/cran_screenshot3.png" "CRAN_Win")  
+![png](../images/cran_screenshot3.png "CRAN_Win")  
 
 Once the installation program has downloaded, open it up and install R.  I would recommend installing it with the default settings   
 
@@ -36,7 +36,7 @@ To install R on a Mac, after clicking on Download R for macOS -- > click on
 For Apple silicon (M1-3) Macs:  
 R-4.4.0-arm64.pkg  
 (again, the version will continue to be updated, so you may see a different version here)  
-![png](../images/cran_screenshot4.png" "CRAN_Mac")
+![png](../images/cran_screenshot4.png "CRAN_Mac")
 
 Then open the installation guide to install R  
 
@@ -45,7 +45,7 @@ Then open the installation guide to install R
 Next, to work with R, you'll probably want to install RStudio.  You can download the free desktop version  
 https://posit.co/downloads/  
 
-![png](../images/rstudio.png" "rstudio")
+![png](../images/rstudio.png "rstudio")
 
 
 ### Part III: Open RStudio
@@ -56,7 +56,7 @@ When you first open RStudio, you may see 3 panes:
 On the left you see 3 tabs at the top: Console, Terminal and Jobs  
 On the top right you see 4 tabs: Environment, History, Connections and Tutorial  
 On the bottom right you see 5 tabs: Files, Plots, Packages, Help and Viewer  
-![png](../images/Rstudio_screenshot1.png" "rstudio")  
+![png](../images/Rstudio_screenshot1.png "rstudio")  
 
 
 These will make a lot more sense once you start using RStudio, so let's jump into it  
@@ -66,7 +66,7 @@ You'll see now a new pane has opened called Untitled 1
 This is where you'll write your code  
 
 To run your code, put your mouse at the beginning of your line of code or highlight all lines of code you want to run and click the Run button 
-![png](../images/Rstudio_screenshot2.png" "rstudio")  
+![png](../images/Rstudio_screenshot2.png "rstudio")  
 
 Or use the keyboard shortcut **Ctrl + Enter**  
 
@@ -100,7 +100,7 @@ Now you've sucessfully installed R and Rstudio AND started to code!
 Keep exploring RStudio and check out my next posts on installing packages and loading in data!  
 
 
-![jpg](../images/everyonecancode.jpg" "coding!")  
+![jpg](../images/everyonecancode.jpg "coding!")  
 Photo by Adi Goldstein on Unsplash
 
 
