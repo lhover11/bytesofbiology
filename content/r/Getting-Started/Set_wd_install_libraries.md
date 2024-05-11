@@ -13,7 +13,7 @@ I remember very distinctly in my first R course, at the beginning I couldn't do 
 So here I'll show you the easy way to do it in Rstudio so you don't get stuck where I did
 
 
-Find the Session tab at the top of your Rtudio  
+Find the Session tab at the top of your Rstudio  
 Click on Session >> Set working directory >> Choose Directory
 
 ![Set WD](../SetWD.png "Install Packages")
