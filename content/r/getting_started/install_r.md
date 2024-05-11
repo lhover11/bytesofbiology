@@ -32,7 +32,7 @@ Once the installation program has downloaded, open it up and install R.  I would
 
 #### For a Mac
 note: untested as I do not own a Mac, but this follows other online tutorials:  
-To install R on a Mac, after clicking on Download R for macOS -- > click on 
+To install R on a Mac, after clicking on Download R for macOS, click on   
 For Apple silicon (M1-3) Macs:  
 R-4.4.0-arm64.pkg  
 (again, the version will continue to be updated, so you may see a different version here)  
@@ -68,7 +68,7 @@ This is where you'll write your code
 To run your code, put your mouse at the beginning of your line of code or highlight all lines of code you want to run and click the Run button 
 ![png](../images/Rstudio_screenshot2.png "rstudio")  
 
-Or use the keyboard shortcut **Ctrl + Enter**  
+Or to run a line of code, use the keyboard shortcut **Ctrl + Enter**  
 
 Now you can try out all sorts of code like the following:  
 
@@ -90,20 +90,14 @@ data()
 hist(rivers)
 ```
 
-By running the code above you can see how the code you write out in top left pane are run in the Console pane on the bottom left  
+By running the code above you can see how the code you write in the top left pane is run in the Console on the bottom left  
 
-You can see the variables you create are in the "Environment" top right panel.  You can continue to use those throughout your script  
+You can see the variables you create are in the "Environment" panel on the top right.  You can continue to use those variables throughout your script  
 
 Plots show up in the "Plots" panel on the bottom right
 
 Now you've sucessfully installed R and Rstudio AND started to code!  
 Keep exploring RStudio and check out my next posts on installing packages and loading in data!  
-
-
-![jpg](../images/everyonecancode.jpg "coding!")  
-Photo by Adi Goldstein on Unsplash
-
-
 
 Bonus: if you want to learn more R, copy, paste and run the following lines of code 
 ```r
@@ -117,6 +111,14 @@ library("swirl")
 swirl()
 ```
 https://swirlstats.com/
+
+
+![jpg](../images/everyonecancode.jpg "coding!")  
+Photo by Adi Goldstein on Unsplash
+
+
+
+
 
 
 
