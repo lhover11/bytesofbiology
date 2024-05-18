@@ -1,5 +1,5 @@
 +++
-title = 'Cancer_types'
+title = 'Cancer types'
 date = 2024-04-27T13:33:22-04:00
 draft = false
 comments = true

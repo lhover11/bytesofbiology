@@ -7,7 +7,10 @@ comments = true
 
 
 ### R
-##### Getting Started
+##### Filtering and Selecting Data
+[Metabric Clinical Metadata](<../files/data_clinical_patient.txt>)
+
+
 ##### Read in files
 
 KRAS CRISPR_DepMap Public 23Q4+Score Chronos:

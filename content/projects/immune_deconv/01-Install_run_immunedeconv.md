@@ -1,8 +1,9 @@
 +++
-title = '01 Install_run_immunedeconv'
+title = 'Step 1: Run immunedeconv'
 date = 2024-05-04T16:15:01-04:00
 draft = false
 comments = true
+weight = 1
 +++
 
 # Immune Deconvolution
