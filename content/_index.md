@@ -5,7 +5,7 @@ title = "Bytes of Biology"
 
 ## Welcome to my bioinformatics blog!
 
-![jpg](../welcome.jpg)
+![jpg](/bytesofbiology/welcome.jpg)
 Photo by Drew Beamer on Unsplash
   
 ### I'm so glad you're here!!
@@ -21,5 +21,5 @@ As I transitioned from the bench-top to the laptop, I wanted to create this blog
 I hope you find my posts helpful and please let me know if there are other topics of interest or if you have any questions!  Or feel free to drop a comment, I always welcome constructive feedback!
 
 
-![png](letscode.jpg)
+![png](/bytesofbiology/letscode.jpg)
 
