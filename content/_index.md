@@ -5,7 +5,7 @@ title = "Bytes of Biology"
 
 ## Welcome to my bioinformatics blog!
 
-![jpg](/bytesofbiology/welcome.jpg)
+<img src="/bytesofbiology/welcome.jpg" alt="description" width="300">
 Photo by Drew Beamer on Unsplash
   
 ### I'm so glad you're here!!
