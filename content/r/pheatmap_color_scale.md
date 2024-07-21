@@ -3,6 +3,7 @@ title = 'Importance of color scales in heatmaps'
 date = 2024-04-21T14:13:06-04:00
 draft = false
 comments = true
+weight = 3
 +++
 
 

@@ -3,6 +3,7 @@ title = 'Filtering, Selecting and Summarizing Data in R'
 date = 2024-03-12T21:40:05-04:00
 draft = false
 comments = true
+weight = 3
 +++
 
 Load our libraries
