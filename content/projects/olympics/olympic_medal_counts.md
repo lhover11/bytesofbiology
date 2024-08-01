@@ -2,6 +2,7 @@
 title = '2024 Olympic Medal Counts'
 date = 2024-07-31T21:00:31-04:00
 draft = false
+comments = true
 weight = 6
 +++
 
