@@ -6,4 +6,4 @@ draft = false
 
 Getting and plotting the 2024 Olympic Medal counts each day
 
-![png](../images/paris_olympics_pic.jpg)
+![png](images/paris_olympics_pic.jpg)
